@@ -1,0 +1,1 @@
+INSERT INTO tb_user (id,username,name,age,balance) VALUES (1, 'zhangsan','张三',20,10000);
