@@ -17,14 +17,8 @@ public class SpringbootChapter03ApplicationTests {
 
     @Test
     public void test() {
-        User u = repository.findById(1L).get();
-        Assert.assertEquals("成功的测试用例", "张三", u.getName());
+        User u = repository.findById(2L).get();
+        Assert.assertEquals("成功的测试用例", "李四", u.getName());
     }
-
-/*
-    @Test
-    public void contextLoads() {
-    }
-*/
 
 }
